@@ -1,0 +1,55 @@
+.oferta {
+  padding: 120px 0px 160px 0px;
+  background-color: #F5F0EC;
+  margin: 0 auto;
+}
+
+.oferta_main {
+  width: 1040px;
+  margin: 0 auto;
+}
+.oferta_main .oferta_desc {
+  width: 709px;
+}
+.oferta_main .oferta_desc .oferta_title {
+  margin-bottom: 32px;
+}
+
+.card-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+}
+
+.card {
+  margin: 0 auto;
+  width: 378px;
+  height: 370px;
+  padding: 48px 40px;
+  border-radius: 28px;
+  border: none;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+.card .card-img-top {
+  width: auto;
+  height: 40px;
+}
+.card .card-body {
+  padding: 0px;
+}
+.card .card-body .card-title {
+  margin: 32px 0px 12px 0px;
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 115%;
+  letter-spacing: -1.4px;
+}
+.card .card-body .card-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.14px;
+}/*# sourceMappingURL=oferta.css.map */

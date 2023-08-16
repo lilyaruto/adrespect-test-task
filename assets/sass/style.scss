@@ -1,17 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:ital,wght@0,500;1,500&display=swap');
 @import url(header.css);
+@import url(oferta.css);
 
 * {
     box-sizing: border-box;
+    
 }
 
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 16px;
+    
 }
 
-.container {
+.contain {
+    margin: 0 auto;
     width: 1440px;
-    border: 1px solid black;
+}
+
+.parag_title {
+    font-weight: 500;
+    font-family: Montserrat;
+    font-size: 48px;
+    letter-spacing: -1.44px;
+    line-height: 115%;
+}
+
+.parag_title i {
+    font-family: Inter;
+    font-style: italic;
+}
+
+.desc_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.16px;
+}
+
+.under_title {
+    color: #1B5B31;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: -0.12px;
+    margin-bottom: 16px;
+}
+
+.card_btn {
+    width: 171px;
+    height: 28px;
+    color: #1B5B31;
+    font-size: 16px;
+    line-height: 150%;
+    border-bottom: 1px solid #1B5B31;
+    padding-bottom: 4px;
+    .card_btn_img {
+        margin-left: 10px;
+    }
 }
