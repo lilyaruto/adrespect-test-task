@@ -45,6 +45,7 @@ body {
 }
 
 .card_btn {
+  z-index: 100;
   display: flex;
   width: 171px;
   height: 28px;
