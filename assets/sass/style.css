@@ -45,14 +45,70 @@ body {
 }
 
 .card_btn {
+  display: flex;
   width: 171px;
   height: 28px;
-  color: #1B5B31;
   font-size: 16px;
   line-height: 150%;
+  align-items: center;
+  color: #1B5B31;
+  text-decoration: none;
+  display: flex;
   border-bottom: 1px solid #1B5B31;
-  padding-bottom: 4px;
 }
-.card_btn .card_btn_img {
+.card_btn .mask {
+  position: relative;
+  padding: 0;
+  height: 20px;
+  overflow: hidden;
+}
+.card_btn .mask .link-container {
+  transition: transform 0.4s ease;
+}
+.card_btn .mask .link-container .title {
+  display: block;
+  font-size: 16px;
+  line-height: 150%;
+  transition: transform 0.4s ease;
+}
+.card_btn .mask .link-container .link-title1 {
+  transform-origin: right center;
+}
+.card_btn .mask .link-container .link-title2 {
+  transform-origin: left center;
+  transform: rotate(30deg);
+}
+.card_btn .link-icon {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-left: 10px;
+  overflow: hidden;
+}
+.card_btn .link-icon .icon {
+  display: block;
+  position: absolute;
+  transition: transform 0.4s ease;
+}
+.card_btn .link-icon .icon:nth-child(2) {
+  transform: translate(-40px);
+}
+
+.card_btn:hover .link-container {
+  transform: translateY(-25px);
+}
+.card_btn:hover .link-container .link-title1 {
+  transform: rotate(20deg);
+}
+.card_btn:hover .link-container .link-title2 {
+  transform: rotate(0);
+}
+.card_btn:hover .icon:first-child {
+  transform: translate(40px);
+}
+.card_btn:hover .icon:nth-child(2) {
+  transform: translate(0px);
 }/*# sourceMappingURL=style.css.map */
