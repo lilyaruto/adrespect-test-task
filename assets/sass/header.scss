@@ -15,6 +15,39 @@
     }
 }
 
+//=====================================
+.nav_link {
+    display: block;
+    position: relative;
+    padding: 4px 0;
+    color: var(--color-fg);
+}
+
+.nav_link::before {
+    border-radius: 8px;
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s transform ease;
+    transform: scale3d(0,1,1);
+    transform-origin: 100% 50%;
+    background: #1B5B31;
+	background-size: 300% 100%;
+}
+
+.nav_link:focus::before {
+    outline: none;
+}
+
+.nav_link:hover::before {
+    transform: scale3d(1,1,1);
+    transform-origin: 0 50%;
+    background-position: 100% 0;
+}
+
 .nav_element_drop {
     position: relative;
 } 
@@ -102,3 +135,4 @@
 .search_bar:focus, .search_bar:not(:placeholder-shown) {
     width: 250px;
 }
+
