@@ -2,6 +2,7 @@
 @import url(header.css);
 @import url(oferta.css);
 @import url(o-firmie.css);
+@import url(contact.css);
 * {
   box-sizing: border-box;
 }
@@ -48,6 +49,7 @@ body {
 .btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 12px 22px 14px 22px;
   color: #F5F0EC;
   font-weight: 400;
