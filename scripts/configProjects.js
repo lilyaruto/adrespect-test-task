@@ -1,5 +1,5 @@
 var macy = Macy({
-    container: '.g',
+    container: '.grid',
     trueOrder: true,
     waitForImages: true,
     margin: {

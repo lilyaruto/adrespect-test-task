@@ -25,10 +25,10 @@ var data = [
     },
     {
         img: "assets/img/projects/picture-1.jfif"
-    }
+    },
 ];
 
-document.querySelector(".g").innerHTML = data.map(project => 
+document.querySelector(".grid").innerHTML = data.map(project => 
     `<div class="grid-item">
         <img class="img" src=${project.img} alt="">
     </div>`        

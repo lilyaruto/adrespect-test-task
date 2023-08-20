@@ -19,3 +19,47 @@
 .img {
     width: 100%;
 }
+
+#collapse_projects.collapse:not(.show) {
+    display: block;
+    height: 1500px;
+    overflow: hidden;
+}
+
+#collapse_projects.collapsing {
+    height: 1500px;
+}
+
+.more-btn.collapsed span::after {
+    content: "Rozwiń"
+}
+
+.more-btn:not(.collapsed) span::after {
+    content: 'Less';
+}
+
+.more-btn:not(.collapsed) .arrow-down-svg {
+    transform: rotate(180deg);
+}
+
+.show-gradient {
+    background: none;
+}
+
+#collapse_projects.collapse:not(.show) .show-gradient {
+    height: 1500px;
+    margin-top: -1500px;
+    position: relative;
+    background: linear-gradient(360deg, #DCC1AB 0%, rgba(214, 183, 158, 0.00) 100%);
+}
+
+.more-btn {
+    margin: 0 auto;
+    margin-bottom: 45px;
+    padding-top: 900px;
+    width: 123px;
+    height: 50px;
+    border-color: black !important;
+    color: black !important;
+    padding: 12px 22px 14px 22px;
+}

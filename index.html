@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giard Design</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/sass/style.css">
 </head>
@@ -75,11 +76,18 @@
             </div>
         </section>
         <section class="projects">
-            <div class="projects_titles">
-                <h3 class="under_title o-firmie_under_title">Realizacje</h3>
-                <h2 class="parag_title o-firmie_title">Nasze <i>projekty</i></h2>
+            <div class="projects_hidden collapse" id="collapse_projects">
+                <div class="projects_titles">
+                    <h3 class="under_title o-firmie_under_title">Realizacje</h3>
+                    <h2 class="parag_title o-firmie_title">Nasze <i>projekty</i></h2>
+                </div>
+                <div class="grid"></div>
+                <div class="show-gradient"></div>
             </div>
-            <div class="g"></div>
+            <a class="btn more-btn collapsed" data-bs-toggle="collapse" href="#collapse_projects" role="button" aria-expanded="false" aria-controls="collapse_projects">
+                <span></span>
+                <img class="btn-svg arrow-down-svg" src="assets/img/arrow-down.svg" alt="">             
+            </a>
         </section>
         <section class="contact">
             <div class="contact_main">
@@ -134,7 +142,6 @@
             </div>
         </footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
     <script src="scripts/renderCards.js"></script>
     <script src="scripts/projectsRender.js"></script>
