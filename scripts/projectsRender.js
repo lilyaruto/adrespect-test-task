@@ -30,7 +30,7 @@ var data = [
 
 document.querySelector(".grid").innerHTML = data.map(project => 
     `            <div class="grid-item">
-    <a href=${project.img} data-bs-toggle="modal" data-bs-target="#exampleModal">
+    <a href=${project.img} class="project_link" data-bs-toggle="modal" data-bs-target="#exampleModal">
         <img class="img" src=${project.img} alt="">
     </a>
 </div>`        
