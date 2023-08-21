@@ -30,4 +30,14 @@
   color: #1B5B31 !important;
   background-color: #F5F0EC;
   padding: 10px 24px 12px 24px;
+}
+.inst-btn:before {
+  background-color: #1B5B31 !important;
+}
+.inst-btn:hover {
+  color: #F5F0EC !important;
+}
+
+.inst-btn:hover {
+  border: 1px #F5F0EC solid;
 }/*# sourceMappingURL=contact.css.map */

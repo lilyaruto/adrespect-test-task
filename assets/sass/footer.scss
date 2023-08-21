@@ -31,6 +31,16 @@
     margin-left: 24px;
     background-color: #1B5B31;
     border: 1px solid #1B5B31 !important;
+    &:before {
+        background-color: #111 !important;
+    }
+    &:hover {
+        color: #F5F0EC !important;
+    }
+}
+
+.footer-btn:hover {
+    border: 1px #F5F0EC solid !important;
 }
 
 .footer_line {

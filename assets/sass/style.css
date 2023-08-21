@@ -63,9 +63,41 @@ body {
   line-height: 150%;
   border-radius: 200px;
   border: 1px solid #F5F0EC;
+  transition: all 0.3s;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
 }
 .btn .btn-svg {
   margin-left: 8px;
+}
+.btn:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10rem;
+  z-index: -2;
+}
+.btn:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #0e4923;
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.btn:hover {
+  color: #F5F0EC;
+}
+.btn:hover:before {
+  width: 100%;
 }
 
 .card_btn {

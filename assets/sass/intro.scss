@@ -55,9 +55,21 @@
     .intro_contact-btn {
         background-color: #1B5B31;
         margin-right: 36px;
+        &:before {
+            background-color: #DCC1AB;
+        }
+        &:hover {
+            color: #1B5B31;
+        }
     }
     .intro-projects-btn {
         color: #1B5B31;
+        &:before {
+            background-color: #1B5B31;
+        }
+        &:hover .btn-svg path {
+            fill: #F5F0EC;
+        }
         .btn-svg {
             path {
                 fill: #1B5B31;

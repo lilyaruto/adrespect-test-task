@@ -31,4 +31,14 @@
 .o-firmie .o-firmie_main .oferta_desc .o-firmie_title {
   width: 50%;
   margin-bottom: 40px;
+}
+
+.o-firmie-btn:before {
+  background-color: #F5F0EC !important;
+}
+.o-firmie-btn:hover {
+  color: #1B5B31 !important;
+}
+.o-firmie-btn:hover .btn-svg path {
+  fill: #1B5B31;
 }/*# sourceMappingURL=o-firmie.css.map */

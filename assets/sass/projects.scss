@@ -39,6 +39,9 @@
     border-color: black !important;
     color: black !important;
     padding: 12px 22px 14px 22px;
+    &:before {
+        background-color: #d1b197 !important;
+    }
 }
 
 .more-btn.collapsed span::after {

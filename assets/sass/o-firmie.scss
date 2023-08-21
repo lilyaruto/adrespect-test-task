@@ -32,3 +32,17 @@
         }
     }
 }
+
+.o-firmie-btn {
+    &:before {
+        background-color: #F5F0EC !important;
+    }
+    &:hover {
+        color: #1B5B31 !important;
+        .btn-svg {
+            path {
+                fill: #1B5B31;
+            }
+        }
+    }
+}

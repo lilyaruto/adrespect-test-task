@@ -41,6 +41,9 @@
   color: black !important;
   padding: 12px 22px 14px 22px;
 }
+.more-btn:before {
+  background-color: #d1b197 !important;
+}
 
 .more-btn.collapsed span::after {
   content: "Rozwiń";

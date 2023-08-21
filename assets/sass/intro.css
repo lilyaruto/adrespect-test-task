@@ -57,8 +57,20 @@
   background-color: #1B5B31;
   margin-right: 36px;
 }
+.intro_buttons .intro_contact-btn:before {
+  background-color: #DCC1AB;
+}
+.intro_buttons .intro_contact-btn:hover {
+  color: #1B5B31;
+}
 .intro_buttons .intro-projects-btn {
   color: #1B5B31;
+}
+.intro_buttons .intro-projects-btn:before {
+  background-color: #1B5B31;
+}
+.intro_buttons .intro-projects-btn:hover .btn-svg path {
+  fill: #F5F0EC;
 }
 .intro_buttons .intro-projects-btn .btn-svg path {
   fill: #1B5B31;
