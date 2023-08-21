@@ -1,17 +1,20 @@
-.header {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px 90px;
 }
-.header .nav_list {
+.navbar .navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar .navbar-collapse .nav_list {
   display: flex;
   align-items: center;
 }
-.header .nav_list .nav_element:not(:last-child) {
+.navbar .navbar-collapse .nav_list .nav_element:not(:last-child) {
   margin-right: 48px;
 }
-.header .nav_list .nav_link {
+.navbar .navbar-collapse .nav_list .nav_link {
   font-size: 14px;
 }
 
@@ -148,4 +151,28 @@
 
 .search_bar:focus, .search_bar:not(:placeholder-shown) {
   width: 250px;
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    background-color: red !important;
+    padding: 24px 50px;
+  }
+  .navbar .navbar-collapse .nav_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .navbar .navbar-collapse .nav_list .nav_element:not(:last-child) {
+    margin-right: 48px;
+  }
+  .navbar .navbar-collapse .nav_list .nav_link {
+    font-size: 14px;
+  }
+}
+@media (max-width: 425px) {
+  .navbar {
+    background-color: red !important;
+    padding: 24px 10px;
+  }
 }/*# sourceMappingURL=header.css.map */

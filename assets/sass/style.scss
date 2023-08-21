@@ -18,13 +18,13 @@ html {
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    font-size: 16px;
-    
+    font-size: 16px; 
 }
 
 .contain {
     margin: 0 auto;
-    width: 1440px;
+    max-width: 1440px;
+    overflow: hidden;
 }
 
 .parag_title {
