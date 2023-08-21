@@ -29,7 +29,9 @@ var data = [
 ];
 
 document.querySelector(".grid").innerHTML = data.map(project => 
-    `<div class="grid-item">
+    `            <div class="grid-item">
+    <a href=${project.img} data-bs-toggle="modal" data-bs-target="#exampleModal">
         <img class="img" src=${project.img} alt="">
-    </div>`        
+    </a>
+</div>`        
 ).join("")

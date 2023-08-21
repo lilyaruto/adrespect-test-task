@@ -82,12 +82,43 @@
                     <h2 class="parag_title o-firmie_title">Nasze <i>projekty</i></h2>
                 </div>
                 <div class="grid"></div>
-                <div class="show-gradient"></div>
             </div>
+            <div id="gradient" class="show-gradient"></div>
             <a class="btn more-btn collapsed" data-bs-toggle="collapse" href="#collapse_projects" role="button" aria-expanded="false" aria-controls="collapse_projects">
                 <span></span>
                 <img class="btn-svg arrow-down-svg" src="assets/img/arrow-down.svg" alt="">             
             </a>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <button type="button" class="btn-close btn-close-projects" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div id="projects_carousel" class="carousel slide carousel-fade">
+                                <div class="carousel-inner">
+                                <div class="carousel-item">
+                                    <img src="assets/img/projects/picture-9.jfif" class="carousel-img d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="assets/img/projects/picture-8.jfif" class="carousel-img d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/projects/picture-7.jfif" class="carousel-img d-block w-100" alt="...">
+                                </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#projects_carousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#projects_carousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="contact">
             <div class="contact_main">
@@ -146,5 +177,6 @@
     <script src="scripts/renderCards.js"></script>
     <script src="scripts/projectsRender.js"></script>
     <script src="scripts/configProjects.js"></script>
+    <script src="scripts/changeGradient.js"></script>
 </body>
 </html>
