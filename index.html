@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="contain">
-        <header class="header">
+        <header class="header hidden">
             <img src="assets/img/logo.svg" alt="" class="logo">
             <nav>
                 <ul class="nav_list">
@@ -44,7 +44,7 @@
                 </ul>
             </nav>
         </header>
-        <section id="carouselExampleAutoplaying" class="carousel slide intro_carousel" data-bs-ride="carousel">
+        <section id="carouselExampleAutoplaying" class="carousel slide intro_carousel hidden" data-bs-ride="carousel">
             <div class="intro_main">
                 <div class="intro_main_cont">
                     <div class="intro_text">
@@ -76,7 +76,7 @@
                 </button>
             </div>
         </section>
-        <section id="oferta" class="oferta">
+        <section id="oferta" class="oferta hidden">
             <div class="oferta_main">
                 <h3 class="under_title">Oferta</h3>
                 <div class="oferta_desc">
@@ -90,7 +90,7 @@
                 <div class="row row-cols-3"></div>
             </div>
         </section>
-        <section id="o-firmie" class="o-firmie">
+        <section id="o-firmie" class="o-firmie hidden">
             <div class="o-firmie_bg"></div>
             <div class="o-firmie_main">
                 <h3 class="under_title o-firmie_under_title">O firmie</h3>
@@ -107,7 +107,7 @@
                 </button>
             </div>
         </section>
-        <section id="projects" class="projects">
+        <section id="projects" class="projects hidden">
             <div class="projects_hidden collapse" id="collapse_projects">
                 <div class="projects_titles">
                     <h3 class="under_title o-firmie_under_title">Realizacje</h3>
@@ -141,7 +141,7 @@
                 </div>
             </div>
         </section>
-        <section id="contact" class="contact">
+        <section id="contact" class="contact hidden">
             <div class="contact_main">
                 <h2 class="parag_title contact_title">Zostańmy w kontakcie! Znajdziesz nas na <i class="contact_subtitle">Instagramie.</i></h2>
                 <div class="contact_inner">
@@ -150,7 +150,7 @@
                 </div>
             </div>
         </section>
-        <footer class="footer">
+        <footer class="footer hidden">
             <div class="footer_box">
                 <div class="footer_main">
                     <div class="footer_main-upper">
@@ -196,11 +196,11 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+    <script src="scripts/animation.js"></script>
     <script src="scripts/renderCards.js"></script>
     <script src="scripts/projectsRender.js"></script>
     <script src="scripts/renderProjectsGallery.js"></script>
     <script src="scripts/renderIntroCarusel.js"></script>
-    
     <script src="scripts/configProjects.js"></script>
     <script src="scripts/changeGradient.js"></script>
 </body>
