@@ -44,6 +44,38 @@
                 </ul>
             </nav>
         </header>
+        <section id="carouselExampleAutoplaying" class="carousel slide intro_carousel" data-bs-ride="carousel">
+            <div class="intro_main">
+                <div class="intro_main_cont">
+                    <div class="intro_text">
+                        <h1 class="intro_title">
+                            Nowoczesna aranżacj <br> Twojego ogrodu
+                        </h1>
+                        <p class="intro_desc">
+                            Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka realizacji. Oferujemy kompleksowy zakres usług z indywidualnym podejściem do każdego projektu.
+                        </p>
+                    </div>
+                    <div class="intro_buttons">
+                        <a class="btn intro_contact-btn" href="">Skontaktuj się z nami</a>
+                        <a class="btn intro-projects-btn" href="">
+                            Zobacz nasze realizacje
+                            <svg class="btn-svg" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path id="Vector" d="M16 8.49529L15.1043 7.59959L8.63642 14.0769L8.63642 0.5L7.36358 0.5L7.36358 14.0675L0.895699 7.59959L9.54553e-08 8.49529L8.00471 16.5L16 8.49529Z" fill="#111111"/>
+                            </svg>    
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="intro_carousel-inner"></div>
+            <div class="carousel-buttons">
+                <button class="carousel-control-prev carousel-btn" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <img src="assets/img/slider-arrow.svg" alt="">
+                </button>
+                <button class="carousel-control-next carousel-intro-next carousel-btn" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <img src="assets/img/slider-arrow.svg" alt="">
+                </button>
+            </div>
+        </section>
         <section class="oferta">
             <div class="oferta_main">
                 <h3 class="under_title">Oferta</h3>
@@ -167,6 +199,8 @@
     <script src="scripts/renderCards.js"></script>
     <script src="scripts/projectsRender.js"></script>
     <script src="scripts/renderProjectsGallery.js"></script>
+    <script src="scripts/renderIntroCarusel.js"></script>
+    
     <script src="scripts/configProjects.js"></script>
     <script src="scripts/changeGradient.js"></script>
 </body>
