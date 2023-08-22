@@ -46,3 +46,57 @@
         }
     }
 }
+
+@media (max-width: 1290px) {
+    .o-firmie {
+        .o-firmie_main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 0px;
+            padding-left: 70px;
+            .oferta_desc {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 960px) {
+    .o-firmie {
+        position: relative;
+        overflow: hidden;
+        background-color: #1b5b3100;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .o-firmie_bg {
+            width: 100%;
+        }
+        .o-firmie_main {
+            position: absolute;
+            padding-left: 0px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .o-firmie {
+        height: 650px;
+        .o-firmie_main {
+            .oferta_desc {
+                width: auto;
+                padding: 10px;
+                margin-bottom: 72px;
+                .o-firmie_title {
+                    width: 100%;
+                    margin-bottom: 40px;
+                }
+            }
+            .oferta_desc {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

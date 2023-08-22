@@ -169,4 +169,17 @@ body {
 }
 .card_btn:hover .icon:nth-child(2) {
   transform: translate(0px);
+}
+
+@media (max-width: 560px) {
+  .parag_title {
+    text-align: center;
+    font-size: 35px;
+  }
+  .desc_text {
+    font-size: 14px;
+  }
+  .under_title {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
