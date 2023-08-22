@@ -1,5 +1,5 @@
 .oferta {
-  padding: 120px 0px 160px 0px;
+  padding: 120px 0px 130px 0px;
   background-color: #F5F0EC;
   margin: 0 auto;
 }
@@ -19,6 +19,10 @@
   display: flex;
   justify-content: center;
   margin-top: 96px;
+}
+
+.col {
+  margin-bottom: 30px;
 }
 
 .card {

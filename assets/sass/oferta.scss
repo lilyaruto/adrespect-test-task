@@ -1,5 +1,5 @@
 .oferta {
-    padding: 120px 0px 160px 0px;
+    padding: 120px 0px 130px 0px;
     background-color: #F5F0EC;
     margin: 0 auto;
 }
@@ -21,7 +21,12 @@
     margin-top: 96px;
 }
 
-.card {position: relative;
+.col {
+  margin-bottom: 30px;
+}
+
+.card {
+    position: relative;
     margin: 0 auto;
     width: 378px;
     height: 370px;
@@ -342,4 +347,8 @@
         }
       }
     }
+}
+
+@media (max-width: 991px) {
+
 }
