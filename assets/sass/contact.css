@@ -40,4 +40,31 @@
 
 .inst-btn:hover {
   border: 1px #F5F0EC solid;
+}
+
+@media (max-width: 1050px) {
+  .contact {
+    padding: 5% 10%;
+  }
+  .contact .contact_main {
+    width: auto;
+    padding: 10%;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact .contact_main .contact_title {
+    margin-right: 0px;
+  }
+  .contact .contact_main .contact_inner .inner_title {
+    margin: 24px 0px;
+  }
+}
+@media (max-width: 560px) {
+  .contact .contact_main .contact_title {
+    font-size: 25px;
+  }
+  .contact .contact_main .contact_inner .inner_title {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=contact.css.map */
