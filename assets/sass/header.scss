@@ -135,6 +135,14 @@
     opacity: 1;
 }
 
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus  {
+    box-shadow: none;
+}
+
 .search_bar:focus, .search_bar:not(:placeholder-shown) {
     width: 250px;
 }

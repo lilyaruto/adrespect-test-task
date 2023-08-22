@@ -145,6 +145,14 @@
   opacity: 1;
 }
 
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
 .search_bar:not(:-moz-placeholder-shown) {
   width: 250px;
 }
